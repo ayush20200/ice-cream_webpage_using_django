@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+
+{% block title %}About
+{% endblock title %}
+{% block body %}
+<div class="row">
+    <div class="col-4">
+      <div id="list-example" class="list-group">
+        <a class="list-group-item list-group-item-action" href="#list-item-1">
+          Manager
+          <img src="https://source.unsplash.com/1600x600/?manager" alt="Item 1 Image" class="img-fluid">
+        </a>
+        <a class="list-group-item list-group-item-action" href="#list-item-2">
+          Assisstant manager
+          <img src="https://source.unsplash.com/1600x600/?assisstant-manager" alt="Item 2 Image" class="img-fluid">
+        </a>
+        <a class="list-group-item list-group-item-action" href="#list-item-3">
+          Cashier
+          <img src="https://source.unsplash.com/1600x600/?payment" alt="Item 3 Image" class="img-fluid">
+        </a>
+        <a class="list-group-item list-group-item-action" href="#list-item-4">
+          Kitchen staff
+          <img src="https://source.unsplash.com/1600x600/?kitchen" alt="Item 4 Image" class="img-fluid">
+        </a>
+      </div>
+    </div>
+    <div class="col-8">
+      <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+        <h4 id="list-item-1">Manager</h4>
+        <img src="https://source.unsplash.com/1600x600/?manager" alt="Item 1 Image" class="img-fluid">
+        <p>Name: Ayush Dadwe <br>
+            Age: 20 <br>
+            Gender: Male <br>
+            Contact Number: +91 9898976767 <br>
+            Email: ayushd@icecreamworld.com <br>
+            Address: 123 Ice Cream Avenue, Sweetville, India <br>
+            
+            Position: Manager <br>
+            Years of Experience: 7 years <br>
+            Responsibilities: Overseeing day-to-day operations of the ice cream parlor, managing staff, inventory management, customer service, and ensuring quality control of ice cream products.</p>
+        
+        <h4 id="list-item-2">Assisstant manager</h4>
+        <img src="https://source.unsplash.com/1600x600/?assisstant-manager" alt="Item 2 Image" class="img-fluid">
+        <p>Name: Mithilesh motghare <br>
+            Age: 22 <br>
+            Gender: Male <br>
+            Contact Number: +91 8989898989 <br>
+            Email: mithileshm@icecreamworld.com <br>
+            Address: 456 Sundae Street, Chilltown, India <br>
+            
+            Position: Assistant Manager <br>
+            Years of Experience: 5 years <br>
+            Responsibilities: Assisting the manager in overseeing daily operations, handling staff scheduling, managing inventory, ensuring excellent customer service, and assisting with decision-making to improve the overall performance of the ice cream parlor.</p>
+        
+        <h4 id="list-item-3">Cashier</h4>
+        <img src="https://source.unsplash.com/1600x600/?payment" alt="Item 3 Image" class="img-fluid">
+        <p>
+            Name: Sophia Patel <br>
+            Age: 22 <br>
+            Gender: Female <br>
+            Contact Number: +91 8787878787
+            Responsibilities: Handling cash transactions, processing credit card payments, providing receipts, and ensuring accuracy in billing.
+        </p>
+        
+        <h4 id="list-item-4">Kitchen staff</h4>
+        <img src="https://source.unsplash.com/1600x600/?kitchen" alt="Item 4 Image" class="img-fluid">
+        <p>
+            Name: Divyanshu Sahare <br>
+            Age: 25 <br>
+            Gender: Male <br>
+            Contact Number: +91 6565656565 <br>
+            Responsibilities: Assisting in the preparation of ice cream, toppings, and sauces, maintaining cleanliness in the kitchen, organizing inventory, and following food safety guidelines.
+        </p>
+      </div>
+    </div>
+  </div>
+  
+
+{% endblock body %}
